@@ -1,0 +1,13 @@
+require('dotenv').config();
+
+module.exports = {
+  TOKEN: process.env.TOKEN || '',
+  GUILD_ID: process.env.GUILD_ID || '', // Optional If you want the commands to be registered globally, enter the server ID if not leave blank
+  MONGODB_URL: process.env.MONGODB_URL || '',
+  OWNER_ID: process.env.OWNER_ID || "207320731263041536",
+  RSNCHAT_KEY: process.env.RSNCHAT_KEY || "",
+  LOGS: {
+    COMMANDS: "", // Optional to desativate leave blank
+    ERROR: "" // Webhook URL
+  }
+};
