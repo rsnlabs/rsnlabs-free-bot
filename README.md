@@ -1,4 +1,4 @@
-# RsnChat Bot
+# RsnLabs Bot
 
 Bot created to use rsnchat AI and xhub-ai, with various features to facilitate your use of the API and other resources.
 
